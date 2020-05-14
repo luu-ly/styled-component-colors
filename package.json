@@ -1,0 +1,40 @@
+{
+  "name": "@styled-components/colors",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Phuong Nguyen <nguyenthanhphuong272@gmail.com>",
+  "description": "React components that implement Google's Material Design.",
+  "keywords": [
+    "react",
+    "color",
+    "colorscheme",
+    "color swatches",
+    "Stylus",
+    "CSS",
+    "open-color",
+    "styled-components",
+    "styled-components color",
+    "material design"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luu-ly/styled-components-colors",
+    "directory": "src"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luu-ly/styled-components-colors/issues"
+  },
+  "homepage": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npm run build",
+    "release": "yarn build && npm publish build --tag latest"
+  },
+  "dependencies": {
+
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
